@@ -1,0 +1,69 @@
+[
+    {
+        "nome": "Baianasystem",
+        "estado": "Bahia",
+        "ritmos": [
+            "afro-brasileiros",
+            "guitarrada baiana",
+            "reggae sound system",
+            "afrobeat",
+            "pagode baiano",
+            "cumbia nordestina"
+        ],
+        "músicafavorita": "reza forte",
+        "pegaMulher": true,
+        "passouWhatsapp": true
+    },
+    {
+        "nome": "Deize Tigrona",
+        "estado": "Rio de Janeiro",
+        "ritmos": "funk carioca",
+        "música favorita": "Monalisa",
+        "pegaMulher": "true",
+        "passouWhatsapp": "true"
+    },
+    {
+        "nome": "Totô de Babalong",
+        "estado": "Bahia",
+        "ritmos": [
+            "pop tropical",
+            "bachata",
+            "pop"
+        ],
+        "música favorita": "Pauta Quente",
+        "pegaMulher": "false",
+        "passouWhatsapp": "true"
+    },
+    {
+        "nome": "Isadora Melo",
+        "estado": "Pernambuco",
+        "ritmos": "MPB",
+        "música favorita": "Anagrama",
+        "pegaMulher": "false",
+        "passouWhatsapp": "true"
+    },
+    {
+        "nome": "Idlibra",
+        "estado": "Pernambuco",
+        "ritmos": [
+            "eletrônica",
+            "bregafunk",
+            "eletro-funk",
+            "house-music"
+        ],
+        "música favorita": "Ração",
+        "pegaMulher": "false"
+    },
+    {
+        "nome": "Uana",
+        "estado": "Pernambuco",
+        "ritmos": [
+            "bregafunk",
+            "brega",
+            "eletrônico",
+            "pop tropical"
+        ],
+        "música favorita": "Macetando",
+        "pegaMulher": "true"
+    }
+]
