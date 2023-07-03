@@ -1,23 +1,24 @@
 [
     {
-        "nome" :  "mzz",
-        "monogamico" : true,
-        "casado" : true,
-        "jaPeguei" : true,
-        "tenhoNumero" : false
+        "nome": "mzz",
+        "monogamico": true,
+        "casado": true,
+        "jaPeguei": true,
+        "tenhoNumero": false
     },
     {
-        "nome" :  "renato",
-        "monogamico" : true,
-        "casado" : false,
-        "jaPeguei" : true,
-        "tenhoNumero" : true
+        "nome": "renato",
+        "monogamico": true,
+        "casado": false,
+        "jaPeguei": true,
+        "tenhoNumero": true
     },
     {
-        "nome" :  "",
-        "monogamico" : true,
-        "casado" : false,
-        "jaPeguei" : true,
-        "tenhoNumero" : true
+        "nome": "",
+        "monogamico": true,
+        "casado": false,
+        "jaPeguei": true,
+        "tenhoNumero": true
     }
 ]
+
