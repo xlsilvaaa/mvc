@@ -14,7 +14,7 @@ const apiSchema = new mongoose.Schema(
     }
 ) 
 
-const apis = mongoose.model('apis, apiSchema'); //é aqui q estamos chamando tudo!
+const apis = mongoose.model('apis', apiSchema); //é aqui q estamos chamando tudo!
 
 module.exports = apis; 
 
