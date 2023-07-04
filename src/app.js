@@ -1,11 +1,20 @@
 import express, {json} from 'express';
 import index from './routes/index.js';
+import db from './config/dbConnect.js';
 
 const app = express(); //esta variável recebe o express, e será usada em outros arquivos
 //app a partir daqui é um FRAMEWORK 
 
 app.use(json()) // o use é um método pronto do express //json é um formato que vamos trabalhar
 app.use("/", index);
+
+db.on("error", console.log.bind(console, 'Erro de conexão'))
+db.once("open", () => {
+    console.log('Conexão com o banco feita com sucesso')
+});
+
+/*metodo ON = a estrutura é começar com o zero, e começar com console.log pra mostrar o erro de exibição. pra mostrar mensagem se a conexão der errado.
+o db significa a variável criada no arquivo dbConnect.js*/
 
 export default app;
 
