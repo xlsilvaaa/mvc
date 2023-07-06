@@ -16,8 +16,9 @@ const apiSchema = new mongoose.Schema(
 
 const apis = mongoose.model('apis', apiSchema); //é aqui q estamos chamando tudo!
 
-module.exports = apis; 
+export default apis; 
 
+//aqui diz o modelo diz q a estrutura é o objeto do mongoose
 //new é palavra construtora, é possível criar arrays, objetos etc.
 
 //mongoose é fremewoork e usa parâmetros json

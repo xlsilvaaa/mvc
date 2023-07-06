@@ -7,3 +7,6 @@ app.listen(port, () => {
 })   // método listen do express
 
 //código fonte pesquisar 
+
+
+//no crud criamos o SCHEMA / o arquivo controllers q recebe a informa~]ao do models
